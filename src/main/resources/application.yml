@@ -6,12 +6,6 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate.ddl-auto: update
-  security:
-    oauth2:
-      client:
-        registration:
-          google:
-            client-id: 923880293761-s5t1dfsres6glqkgh7tv8cu7msh75kci.apps.googleusercontent.com
-            client-secret: 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
+  
 server:
   port: 8082
